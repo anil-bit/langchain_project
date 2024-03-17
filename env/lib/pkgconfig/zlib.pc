@@ -1,0 +1,13 @@
+prefix=/home/anil/Documents/langchain_project-main/env
+exec_prefix=/home/anil/Documents/langchain_project-main/env
+libdir=/home/anil/Documents/langchain_project-main/env/lib
+sharedlibdir=/home/anil/Documents/langchain_project-main/env/lib
+includedir=/home/anil/Documents/langchain_project-main/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
